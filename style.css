@@ -10,29 +10,41 @@ body {
 	background-color: #fff;
 }
 
-/* HEADER -------------------- */
+/* HEADER - upper-bar --------------------- */
 
 .upper-bar {
 	height: 48px;
 	background-color: #a60306;
 	line-height: 48px;
+	display: flex;
+	/* flex-direction: row; */
+	justify-content: space-between;
 }
 
-.container {
-	display: inline-block;
+.header-box {
 	padding: 0 10px;
 	color: #fff;
 	font-size: 14px;
 }
 
 header a {
+	padding: 10px;
 	text-decoration: none;
 	color: #fff;
 	font-weight: bold;
+	transition: color 0.3s;
+}
+
+header a:hover {
+	color: #000;
+}
+
+.right-tips {
+	text-transform: uppercase;
+	
 }
 
 i {
-	display: block;
 	padding: 10px;
 	width: 36px;
 	height: 36px;
@@ -45,3 +57,7 @@ i {
 i:hover {
 	background-color: rgb(51, 51, 51);
 }
+
+/* END of HEADER - upper-bar --------------------- */
+
+/* Header -menu --------------------------------- */
