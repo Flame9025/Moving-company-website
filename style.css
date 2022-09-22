@@ -5,20 +5,19 @@
 }
 
 body {
-	font-family: "Raleway", sans-serif;
+	font-family: "Lexend", sans-serif;
 	font-size: 16px;
-	background-color: #fff;
+	background-color: #999;
 }
 
-/* HEADER - upper-bar --------------------- */
+/* UPPER-BAR START --------------------- */
 
 .upper-bar {
 	height: 48px;
 	background-color: #a60306;
 	line-height: 48px;
 	display: flex;
-	/* flex-direction: row; */
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
 .header-box {
@@ -27,7 +26,7 @@ body {
 	font-size: 14px;
 }
 
-header a {
+.upper-bar a {
 	padding: 10px;
 	text-decoration: none;
 	color: #fff;
@@ -35,16 +34,15 @@ header a {
 	transition: color 0.3s;
 }
 
-header a:hover {
+.upper-bar a:hover {
 	color: #000;
 }
 
 .right-tips {
 	text-transform: uppercase;
-	
 }
 
-i {
+.upper-bar i {
 	padding: 10px;
 	width: 36px;
 	height: 36px;
@@ -54,10 +52,42 @@ i {
 	transition: background-color 0.3s;
 }
 
-i:hover {
+.upper-bar i:hover {
 	background-color: rgb(51, 51, 51);
 }
 
-/* END of HEADER - upper-bar --------------------- */
+/* END Upper-bar --------------------- */
 
-/* Header -menu --------------------------------- */
+/* Menu START --------------------------------- */
+
+nav {
+	height: 100px;
+	background-color: #fff;
+	line-height: 100px;
+}
+
+.sub-box a {
+	color: #000;
+	text-decoration: none;
+	font-size: 19px;
+	text-transform: uppercase;
+	font-weight: 500;
+	transition: color 0.3s;
+	font-size: 20px;
+}
+
+nav a:hover {
+	color: #a60306;
+}
+
+.container-menu {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.logo-menu a {
+	display: inline-block;
+	color: #000;
+	text-decoration: none;
+	border: 3px yellowgreen solid;
+}
