@@ -1,23 +1,25 @@
 * {
-	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
 	font-family: "Lexend", sans-serif;
 	font-size: 16px;
-	background-color: #999;
+	background-color: #fff;
 }
 
 /* UPPER-BAR START --------------------- */
 
 .upper-bar {
+	display: flex;
+	justify-content: space-evenly;
+	margin-left: auto;
+	margin-right: auto;
 	height: 48px;
 	background-color: #a60306;
 	line-height: 48px;
-	display: flex;
-	justify-content: space-around;
 }
 
 .header-box {
@@ -65,29 +67,64 @@ nav {
 	background-color: #fff;
 }
 
-.sub-box a {
-	color: #000;
-	text-decoration: none;
-	font-size: 19px;
-	text-transform: uppercase;
-	font-weight: 500;
-	transition: color 0.3s;
-	font-size: 20px;
-	line-height: 100px;
-}
-
-.sub-box a:hover {
-	color: #a60306;
-}
-
 .container-menu {
 	display: flex;
 	justify-content: space-evenly;
-	/* align-items: center; */
+	align-items: center;
+	flex-wrap: wrap;
+	block-size: 100px;
 }
 
-/* Logo START --------------------------- */
+.sub-menu a {
+	position: relative;
+	font-size: 20px;
+	font-weight: 500;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #000;
+	background-color: #fff;
+	transition: color 0.3s;
+	margin: 0;
+}
 
+.sub-menu a:hover {
+	color: #a60306;
+}
+
+.sub-menu {
+	position: relative;
+	font-size: 20px;
+	font-weight: 500;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #000;
+	background-color: #fff;
+	transition: color 0.3s;
+
+	/* float: left; */
+	padding: 10px;
+	margin: 0px;
+}
+
+.sub-menu:hover {
+	color: #a60306;
+	cursor: pointer;
+}
+
+.item-menu {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	top: 50px;
+	text-transform: capitalize;
+	border: 2px solid black;
+
+	background: yellowgreen;
+	display: block;
+}
+
+/* Logo START ----------------------------------- */
+/* 
 .logo-menu {
 	display: flex;
 	align-items: center;
@@ -96,40 +133,63 @@ nav {
 .logo-menu a {
 	position: relative;
 	top: -18px;
-	color: #000;
-	text-decoration: none;
 	display: flex;
 	flex-direction: column;
+	color: #000;
+	text-decoration: none;
 }
 
 .fa-truck {
 	position: absolute;
-	top: 30px;
-	font-size: 22px;
+	top: 25px;
 	background-color: #ec2b28;
-	border-radius: 50%;
 	border: 7px #ec2b28 solid;
+	border-radius: 50%;
+	font-size: 28px;
 }
 
 .super {
 	position: relative;
-	top: 8px;
-	text-transform: uppercase;
-	font-size: 60px;
-	letter-spacing: -5px;
-	font-weight: 500;
-	margin-left: 40px;
+	top: 11px;
+	margin-left: 53px;
 	padding-bottom: 0px;
+	font-size: 55px;
+	font-weight: 500;
+	letter-spacing: -5px;
+	text-transform: uppercase;
 }
 
 .transport {
-	color: #fff;
+	padding: 4px 7px;
 	background-color: #ec2b28;
+	border-radius: 8px;
+	color: #fff;
 	font-size: 24px;
 	font-weight: bold;
-	border-radius: 8px;
-	padding: 4px 7px;
 	letter-spacing: 5px;
+} */
+/* Logo END -----------------------------------------*/
+
+/* Logo vs.2 as a graphics---------- START ------------------------------  */
+.logoVs2-menu {
+	height: 100px;
+	width: 303px;
 }
 
-/* Logo END ------------------------*/
+.logoVs2-menu a img {
+	padding: 7px 0 3px 0;
+	width: 100%;
+	height: 100%;
+	object-fit: scale-down;
+}
+/* Logo vs.2 as a graphics---------- END ------------------------------  */
+
+/* .banner {
+	
+} */
+
+.banner img {
+	width: 100%;
+	/* height: 100%; */
+	object-fit: cover;
+}
