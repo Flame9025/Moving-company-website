@@ -100,15 +100,14 @@ nav {
 	color: #000;
 	background-color: #fff;
 	transition: color 0.3s;
-	padding: 10px;
+	padding: 37px 2px;
 }
 
 .sub-menu {
-	display: none;
 	position: absolute;
-	top: 65px;
+	display: none;
+	top: 95px;
 	color: #000;
-	
 }
 
 .item-menu {
@@ -123,6 +122,10 @@ nav {
 }
 .menu:hover .sub-menu {
 	display: block;
+}
+
+.item-menu:hover {
+	color: #a60306;
 }
 
 /* Logo START ----------------------------------- */
