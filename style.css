@@ -75,7 +75,7 @@ nav {
 	block-size: 100px;
 }
 
-.sub-menu a {
+.menu a {
 	position: relative;
 	font-size: 20px;
 	font-weight: 500;
@@ -87,11 +87,11 @@ nav {
 	margin: 0;
 }
 
-.sub-menu a:hover {
+.menu a:hover {
 	color: #a60306;
 }
 
-.sub-menu {
+.menu {
 	position: relative;
 	font-size: 20px;
 	font-weight: 500;
@@ -101,26 +101,25 @@ nav {
 	background-color: #fff;
 	transition: color 0.3s;
 
-	/* float: left; */
 	padding: 10px;
 	margin: 0px;
 }
 
-.sub-menu:hover {
+.menu:hover {
 	color: #a60306;
 	cursor: pointer;
 }
 
-.item-menu {
+.sub-menu {
 	position: absolute;
-	display: flex;
-	flex-direction: column;
-	top: 50px;
-	text-transform: capitalize;
-	border: 2px solid black;
+	top: 65px;
+}
 
-	background: yellowgreen;
-	display: block;
+.item-menu {
+	padding: 10px;
+	text-transform: capitalize;
+	/* border: 2px solid black; */
+	background: #fff;
 }
 
 /* Logo START ----------------------------------- */
