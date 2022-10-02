@@ -76,7 +76,7 @@ nav {
 }
 
 .menu a {
-	position: relative;
+	/* position: relative; */
 	font-size: 20px;
 	font-weight: 500;
 	text-transform: uppercase;
@@ -100,26 +100,29 @@ nav {
 	color: #000;
 	background-color: #fff;
 	transition: color 0.3s;
-
 	padding: 10px;
-	margin: 0px;
+}
+
+.sub-menu {
+	display: none;
+	position: absolute;
+	top: 65px;
+	color: #000;
+	
+}
+
+.item-menu {
+	padding: 10px;
+	text-transform: capitalize;
+	background: #fff;
 }
 
 .menu:hover {
 	color: #a60306;
 	cursor: pointer;
 }
-
-.sub-menu {
-	position: absolute;
-	top: 65px;
-}
-
-.item-menu {
-	padding: 10px;
-	text-transform: capitalize;
-	/* border: 2px solid black; */
-	background: #fff;
+.menu:hover .sub-menu {
+	display: block;
 }
 
 /* Logo START ----------------------------------- */
