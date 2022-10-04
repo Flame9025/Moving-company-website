@@ -23,14 +23,12 @@ body {
 }
 
 .banner-text {
-	display: inline-block;
-}
-
-.banner-text2 {
-	width: 50%;
+	width: 60%;
+	margin: 10px;
 }
 
 .btn {
+	margin: 5px;
 	font-size: 18px;
 	font-weight: bold;
 	text-align: center;
@@ -43,16 +41,16 @@ body {
 .btn1 {
 	display: inline-block;
 	height: 50px;
-	width: 250px;
+	width: 30%;
 }
 
 .btn2 {
 	display: inline-block;
 	height: 50px;
-	width: 250px;
+	width: 30%;
 }
 
 .btn3 {
 	height: 50px;
-	width: 600px;
+	width: calc(60% + 15px);
 }
