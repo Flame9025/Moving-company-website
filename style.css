@@ -1,4 +1,4 @@
-@import url(Upper_Bar.css);
+@import url(upper_bar.css);
 @import url(menu.css);
 
 * {
@@ -16,4 +16,43 @@ body {
 .banner img {
 	width: 100%;
 	object-fit: cover;
+}
+
+.banner-box {
+	border: 3px solid lightblue;
+}
+
+.banner-text {
+	display: inline-block;
+}
+
+.banner-text2 {
+	width: 50%;
+}
+
+.btn {
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 50px;
+	border: 1px solid black;
+	color: #fff;
+	background-color: #333;
+}
+
+.btn1 {
+	display: inline-block;
+	height: 50px;
+	width: 250px;
+}
+
+.btn2 {
+	display: inline-block;
+	height: 50px;
+	width: 250px;
+}
+
+.btn3 {
+	height: 50px;
+	width: 600px;
 }
