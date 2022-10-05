@@ -42,13 +42,14 @@ nav {
 	position: absolute;
 	display: none;
 	top: 95px;
+	font-size: 17px;
 	color: #000;
 	transition: 2s;
 }
 
 .item-menu {
 	padding: 10px;
-	text-transform: capitalize;
+	text-transform: none;
 	background: #fff;
 }
 
