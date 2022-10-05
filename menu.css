@@ -58,6 +58,7 @@ nav {
 }
 .menu:hover .sub-menu {
 	display: block;
+	z-index: 2;
 }
 
 .item-menu:hover {
