@@ -9,20 +9,21 @@
 
 .banner-box {
 	position: absolute;
-	padding: 10px;
+	padding: 10px 0px 10px 30px;
 	top: 20%;
 	left: 0;
 }
 
 .banner-text {
-	width: 60%;
+	width: 50%;
 	margin: 20px;
 	color: #fff;
 }
 
 h3 {
-	font-weight: normal;
 	width: 80%;
+	font-weight: normal;
+	font-size: 1em;
 }
 
 .btn {
@@ -34,7 +35,7 @@ h3 {
 }
 
 .btn a {
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: bold;
 	text-decoration: none;
 	color: #fff;
@@ -43,17 +44,21 @@ h3 {
 .btn1 {
 	display: inline-block;
 	height: 50px;
-	width: 25%;
+	width: 20%;
 }
 
 .btn2 {
 	display: inline-block;
 	height: 50px;
-	width: 25%;
+	width: 20%;
 }
 
 .btn3 {
 	height: 50px;
-	width: calc(50% + 15px);
+	width: calc(40% + 15px);
 	background-color: #a60306;
+}
+
+.icon-left {
+	text-align: left;
 }
