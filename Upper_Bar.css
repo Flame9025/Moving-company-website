@@ -1,11 +1,14 @@
 .upper-bar {
+	background-color: #a60306;
+}
+
+.upper-bar-container {
+	height: 48px;
+	line-height: 48px;
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	margin-left: auto;
 	margin-right: auto;
-	height: 48px;
-	background-color: #a60306;
-	line-height: 48px;
 }
 
 .header-box {

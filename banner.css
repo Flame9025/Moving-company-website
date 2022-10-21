@@ -1,23 +1,20 @@
 .banner {
 	position: relative;
-}
-
-.banner img {
-	width: 100%;
-	object-fit: cover;
+	height: 81vh;
+	background-image: url(../baner3.png);
+	background-size: cover;
+	background-position: right;
 }
 
 .banner-box {
 	position: absolute;
 	margin-left: 30px;
-	/* padding: 10px 0px 10px 30px; */
 	padding: 10px 0;
 	top: 20%;
-	/* left: 0; */
 }
 
 .banner-text {
-	width: 50%;
+	width: 45%;
 	margin: 20px;
 	color: #fff;
 }
