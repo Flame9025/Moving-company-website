@@ -1,7 +1,7 @@
 .banner {
 	position: relative;
 	height: 81vh;
-	background-image: url(../baner3.png);
+	background-image: url(baner3.png);
 	background-size: cover;
 	background-position: right;
 }
@@ -48,7 +48,7 @@ h3 {
 	display: inline-block;
 	height: 50px;
 	width: calc(40% + 15px);
-	background-color: #a60306;
+	background-color: var(--main-color);
 }
 
 .span0 {

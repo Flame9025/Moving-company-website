@@ -2,6 +2,11 @@
 @import url(menu.css);
 @import url(banner.css);
 
+:root {
+	--main-color: #a60306;
+	--second-color: 
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -20,6 +25,8 @@ body {
 	max-width: 1300px;
 }
 
+/* -------------------------------------- */
+
 .cards {
 	width: 100%;
 	height: 800px;
@@ -30,6 +37,8 @@ body {
 .cards h1 {
 	margin: 50px 0;
 	text-align: center;
+	color: var(--main-color);
+
 }
 
 .cards p {

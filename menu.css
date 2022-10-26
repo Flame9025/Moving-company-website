@@ -23,7 +23,7 @@ nav {
 	align-items: baseline;
 }
 .menu a {
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: 500;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -33,7 +33,7 @@ nav {
 }
 
 .menu:hover a {
-	color: #a60306;
+	color: var(--main-color);
 }
 
 .menu {
@@ -51,11 +51,13 @@ nav {
 
 .sub-menu {
 	position: absolute;
-	display: none;
+	display: block;
 	top: 95px;
 	font-size: 17px;
 	color: #000;
-	transition: 2s;
+	visibility: hidden;
+	opacity: 0;
+	transition: visibility 0s, opacity 0.4s linear;
 }
 
 .item-menu {
@@ -65,16 +67,17 @@ nav {
 }
 
 .menu:hover {
-	color: #a60306;
+	color: var(--main-color);
 	cursor: pointer;
 }
 .menu:hover .sub-menu {
-	display: block;
 	z-index: 2;
+	visibility: visible;
+	opacity: 1;
 }
 
 .item-menu:hover {
-	color: #a60306;
+	color: var(--main-color);
 }
 
 /* Logo vs.2 as a graphics---------- Start ------------------------------  */
