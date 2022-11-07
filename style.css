@@ -27,27 +27,49 @@ body {
 
 /* -------------------------------------- */
 
-main {
-	border: 3px solid yellowgreen;
-}
-
-.cards {
-	width: 100%;
-	height: 800px;
-	margin: 10px 0;
+.cards-section {
 	background-color: #fff;
 }
 
-.cards h1 {
+.cards-section h1 {
 	margin: 50px 0;
 	text-align: center;
 	color: var(--main-color);
+	font-size: 25px;
 }
 
-.cards p {
-	width: 60%;
-	margin: 0 auto;
+.cards-section p {
+	width: 70%;
+	margin: 20px auto;
 	text-align: center;
 }
 
-/* --------------------------------------------- */
+.card-container {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+
+	height: 300px;
+	width: 300px;
+	background-color: var(--main-color);
+	color: #fff;
+	text-align: center;
+	justify-content: center;
+}
+
+.card-item {
+	font-size: 38px;
+	margin: 0 0 20px;
+}
+
+.card-text {
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+/* --------------------------------------------- */ ;
