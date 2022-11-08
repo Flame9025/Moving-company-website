@@ -1,6 +1,7 @@
 @import url(upper_bar.css);
 @import url(menu.css);
 @import url(banner.css);
+@import url(cards.css);
 
 :root {
 	--main-color: #a60306;
@@ -26,64 +27,3 @@ body {
 }
 
 /* -------------------------------------- */
-
-.cards-section {
-	background-color: #fff;
-}
-
-.cards-section h1 {
-	margin: 50px 0 20px;
-	text-align: center;
-	color: var(--main-color);
-	font-size: 25px;
-}
-
-.cards-section p {
-	width: 75%;
-	margin: 30px auto;
-	text-align: center;
-	font-size: 15px;
-}
-
-.card-container {
-	display: flex;
-	justify-content: center;
-	gap: 20px;
-}
-
-.card-box {
-	height: 300px;
-	width: 300px;
-	z-index: 2;
-}
-
-.card {
-	display: flex;
-	flex-direction: column;
-	height: 300px;
-	width: 300px;
-	background-color: var(--main-color);
-	color: #fff;
-	text-align: center;
-	justify-content: center;
-	transition: 1s;
-}
-
-.card-content {
-	transition: 1s;
-}
-
-.card-item {
-	font-size: 46px;
-	margin: 0 0 20px;
-}
-
-.card-text {
-	font-size: 20px;
-	text-transform: uppercase;
-	font-weight: bold;
-}
-
-.card-box:hover .card {
-	transform: rotateX(180deg);
-}
